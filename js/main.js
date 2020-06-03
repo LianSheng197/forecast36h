@@ -81,7 +81,11 @@ async function insertPartialHTML(filename) {
         let s = document.createElement('script');
         s.type = "text/javascript";
         
-        s.innerHTML = script[1];
+        s.innerHTML = `
+        (function(){
+            ${script[1]}
+        })();
+        `;
         content.appendChild(s);
     }    
 }
