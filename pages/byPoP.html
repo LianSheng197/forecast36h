@@ -1,0 +1,57 @@
+<h1>各縣市降雨機率預報</h1>
+
+<hr>
+
+<div id="PoP"></div>
+
+<!--  -->
+
+<style>
+    table {
+        width: 100%;
+    }
+
+    thead th {
+        width: 25%;
+    }
+
+    tbody th {
+        text-align: right;
+    }
+
+    th {
+        background-color: #0003;
+    }
+
+    td {
+        text-align: center;
+        background-color: #0001;
+    }
+</style>
+
+<script>
+    let temp = "<table>";
+    temp += `
+        <thead><tr>
+            <th>時段 / 城市 / 機率 (%)</th>
+            <th>${_periodCheckPoint[0]} <br>至<br> ${_periodCheckPoint[1]}</th>
+            <th>${_periodCheckPoint[1]} <br>至<br> ${_periodCheckPoint[2]}</th>
+            <th>${_periodCheckPoint[2]} <br>至<br> ${_periodCheckPoint[3]}</th>
+        </tr></thead><tbody>
+    `;
+
+    for (let i=0; i<_sortedData.length; i++) {
+        temp += `
+            <tr>
+                <th>${_sortedData[i].name}</th>
+                <td>${_sortedData[i].PoP[0]}</td>
+                <td>${_sortedData[i].PoP[1]}</td>
+                <td>${_sortedData[i].PoP[2]}</td>
+            </tr>
+        `;
+    }
+
+    temp += "</tbody></table>";
+
+    document.querySelector("div#PoP").innerHTML = temp;
+</script>
