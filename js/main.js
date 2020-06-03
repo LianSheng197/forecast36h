@@ -32,13 +32,13 @@ let _sortedData = [];
 
             county.weatherElement.forEach(element => {
                 temp[element.elementName] = [];
-                
+
                 // 每個屬性都被切成三個時段
                 // 若發佈時間爲早上，則中午 12 時開始，每段爲 [6, 12, 12] 小時
                 // 若發佈時間爲傍晚，則晚上 18 時開始，每段爲 [12, 12, 12] 小時
-                for(let i=0; i<3; i++){
+                for (let i = 0; i < 3; i++) {
                     temp[element.elementName][i] = element.time[i].parameter.parameterName;
-                }                
+                }
             });
 
             _sortedData.push(temp);
@@ -46,5 +46,31 @@ let _sortedData = [];
 
         console.log(_metaData);
         console.log(_sortedData);
+    } else {
+        alert("取得預報資料時出錯，請重新整理");
+        return;
     }
 }());
+
+
+// 觸發導入片段檔的事件註冊
+document.querySelectorAll("a[data-link]").forEach(each => {
+    each.addEventListener("click", async () => {
+        let link = each.getAttribute("data-link");
+        insertPartialHTML(link);
+    });
+});
+
+// 引入外部片段檔
+async function insertPartialHTML(filename) {
+    let content = document.querySelector("div#content");
+    let targetFile = `pages/${filename}.html`;
+
+    let html = await fetch(targetFile).then(
+        r => r.text()
+    ).then(
+        t => t
+    );
+
+    content.innerHTML = html;
+}
