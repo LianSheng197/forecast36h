@@ -55,7 +55,7 @@ let _sortedData = [];
 
 // 觸發導入片段檔的事件註冊
 document.querySelectorAll("a[data-link]").forEach(each => {
-    each.addEventListener("click", async () => {
+    each.addEventListener("click", () => {
         let link = each.getAttribute("data-link");
         insertPartialHTML(link);
     });

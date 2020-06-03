@@ -1,0 +1,48 @@
+<h1>今明 36 小時天氣預報</h1>
+
+<hr>
+
+<h3>原始資料來源</h3>
+<ul>
+    <li><a href="https://data.gov.tw/dataset/6069">政府資料開放平台：一般天氣預報-今明36小時天氣預報</a></li>
+</ul>
+
+<h3>原始資料備註</h3>
+<ul>
+    <li><a href="https://opendata.cwb.gov.tw/opendatadoc/MFC/ForecastElement.pdf">參考文件</a></li>
+</ul>
+
+<h3>功能介紹</h3>
+<ul>
+    <li>查詢指定城市的所有數值：</li>
+    <ul>
+        <li><a data-link="byCounty">查詢各縣市</a></li>
+    </ul>
+    <br>
+
+    <li>查詢特定數值，能同時看到各個城市與不同時段的資訊：</li>
+    <ul>
+        <li><a data-link="byCI">查詢舒適度</a></li>
+        <li><a data-link="byMaxT">查詢最高溫</a></li>
+        <li><a data-link="byMinT">查詢最低溫</a></li>
+        <li><a data-link="byPoP">查詢降雨機率</a></li>
+        <li><a data-link="byWx">查詢天氣狀況</a></li>
+    </ul>
+</ul>
+
+
+<style>
+    a[data-link]:not(.navItem) {
+        color: blue;
+        cursor: pointer;
+    }
+</style>
+
+<script>
+    document.querySelectorAll("a[data-link]:not(.navItem)").forEach(each => {
+        each.addEventListener("click", () => {
+            let link = each.getAttribute("data-link");
+            insertPartialHTML(link);
+        });
+    });
+</script>
