@@ -1,0 +1,109 @@
+<h1>各縣市天氣預報</h1>
+
+<hr>
+
+<h3>城市列表</h3>
+<div id="allCounty"></div>
+
+<hr>
+
+<h3 id="selectCountyHeader"></h3>
+<div id="selectCountyParameters"></div>
+
+<!--  -->
+
+<style>
+    a[data-value] {
+        color: green;
+        cursor: pointer;
+    }
+
+    div#allCounty li {
+        display: inline-block;
+        width: 16.6%;
+    }
+
+    div#allCounty li::before {
+        content: "> ";
+    }
+
+    div#selectCountyParameters table {
+        width: 100%;
+    }
+
+    div#selectCountyParameters thead th {
+        width: 25%;
+    }
+
+    div#selectCountyParameters tbody th {
+        text-align: right;
+    }
+
+    div#selectCountyParameters th {
+        background-color: #0002;
+    }
+
+    div#selectCountyParameters td {
+        text-align: center;
+        background-color: #0001;
+    }
+</style>
+
+<script>
+    let allCounty = document.querySelector("div#allCounty");
+    let temp = "<ul>";
+
+    _sortedData.forEach(county => {
+        let tempObj = {};
+        tempObj["CI"] = county.CI;
+        tempObj["MaxT"] = county.MaxT;
+        tempObj["MinT"] = county.MinT;
+        tempObj["PoP"] = county.PoP;
+        tempObj["Wx"] = county.Wx;
+
+        temp += `<li><a data-value='${JSON.stringify(tempObj)}'>${county.name}</a></li>`;
+    });
+    temp += "</ul>";
+
+    allCounty.innerHTML = temp;
+
+
+    // 選擇城市
+    let selectCountyHeader = document.querySelector("h3#selectCountyHeader");
+    let selectCountyParameters = document.querySelector("div#selectCountyParameters");
+    document.querySelectorAll("a[data-value]").forEach(county => {
+        county.addEventListener("click", () => {
+            let name = county.innerText;
+            let raw = county.getAttribute("data-value");
+            let data = JSON.parse(raw);
+
+            selectCountyHeader.innerText = `${name} 未來 36 小時天氣預報`;
+
+            let temp = "<table>";
+            temp += `
+                <thead><tr>
+                    <th>時段 / 類型</th>
+                    <th>${_periodCheckPoint[0]} <br>至<br> ${_periodCheckPoint[1]}</th>
+                    <th>${_periodCheckPoint[1]} <br>至<br> ${_periodCheckPoint[2]}</th>
+                    <th>${_periodCheckPoint[2]} <br>至<br> ${_periodCheckPoint[3]}</th>
+                </tr></thead><tbody>
+            `;
+
+            for (let [key, value] of Object.entries(data)) {
+                console.log(key, value);
+                temp += `
+                <tr>
+                    <th>${_typeField[key]}</th>
+                    <td>${value[0]}</td>
+                    <td>${value[1]}</td>
+                    <td>${value[2]}</td>
+                </tr>
+            `;
+            }
+
+            temp += "</tbody></table>";
+
+            selectCountyParameters.innerHTML = temp;
+        });
+    });
+</script>
