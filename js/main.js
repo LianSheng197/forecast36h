@@ -1,6 +1,13 @@
 let _metaData = {};
 let _sortedData = [];
 let _periodCheckPoint = [];
+let _typeField = {
+    "CI": "舒適度",
+    "MaxT": "最高溫",
+    "MinT": "最低溫",
+    "PoP": "降雨機率",
+    "Wx": "天氣狀況"
+};
 
 (async function () {
     // 取得預報資料
