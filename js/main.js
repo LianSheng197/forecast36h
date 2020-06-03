@@ -3,9 +3,9 @@ let _sortedData = [];
 let _periodCheckPoint = [];
 let _typeField = {
     "CI": "舒適度",
-    "MaxT": "最高溫",
-    "MinT": "最低溫",
-    "PoP": "降雨機率",
+    "MaxT": "最高溫 (°C)",
+    "MinT": "最低溫 (°C)",
+    "PoP": "降雨機率 (%)",
     "Wx": "天氣狀況"
 };
 
