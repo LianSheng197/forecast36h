@@ -1,7 +1,7 @@
 let _metaData = {};
 let _sortedData = [];
 
-(async function() {
+(async function () {
     // 取得預報資料
     let forecastData = await fetch("resources/data.json").then(
         r => r.json()
@@ -22,17 +22,29 @@ let _sortedData = [];
         };
 
         // 資料預處理，並簡化格式
-        // 各個屬性的 time 部份因固定拆分成三區段，每個區段間隔 12 小時
+        // 各個屬性的 time 部份因固定拆分成三區段
         // 故省略開始與結束時間，繪製時再即時計算即可
         // 五種屬性皆只取出 parameterName，大幅簡化資料結構
         forecastData.dataset.location.forEach(county => {
-            let temp;
+            let temp = {};
 
             temp["name"] = county.locationName;
 
             county.weatherElement.forEach(element => {
-                temp[element.elementName] = [1,2,3];
+                temp[element.elementName] = [];
+                
+                // 每個屬性都被切成三個時段
+                // 若發佈時間爲早上，則中午 12 時開始，每段爲 [6, 12, 12] 小時
+                // 若發佈時間爲傍晚，則晚上 18 時開始，每段爲 [12, 12, 12] 小時
+                for(let i=0; i<3; i++){
+                    temp[element.elementName][i] = element.time[i].parameter.parameterName;
+                }                
             });
+
+            _sortedData.push(temp);
         });
+
+        console.log(_metaData);
+        console.log(_sortedData);
     }
 }());
