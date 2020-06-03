@@ -68,9 +68,22 @@ async function insertPartialHTML(filename) {
 
     let html = await fetch(targetFile).then(
         r => r.text()
-    ).then(
-        t => t
     );
 
-    content.innerHTML = html;
+    // 添加非 script 的 HTML
+    content.innerHTML = html.replace(/<script>[^]+?<\/script>/, "");
+    
+
+    // 添加 script
+    let script = html.match(/<script>([^]+?)<\/script>/);
+
+    if (script != null) {
+        let s = document.createElement('script');
+        s.type = "text/javascript";
+        
+        s.innerHTML = script[1];
+        content.appendChild(s);
+    }    
 }
+
+insertPartialHTML("index");
