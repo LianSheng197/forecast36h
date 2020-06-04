@@ -1,9 +1,10 @@
 # 每天的 12, 18 時觸發更新
+# UTC 時間為 4, 10
 
 name: Update resources/data.json
 on:
   schedule:
-    - cron: "0 12,18 * * *"
+    - cron: "0 4,10 * * *"
 jobs:	
   build:	
     runs-on: ubuntu-latest	
