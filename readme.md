@@ -3,9 +3,11 @@
 這只是某堂課的期末作業。  
 
 ### 核心要求
-- 讀取 JSON 格式檔
-- 引入其它片段檔（至少六個）
-- 使用 AngularJS （可選）
+- 必須
+  - 讀取 JSON 格式檔
+  - 引入其它片段檔（至少六個）
+- 可選  
+  - 使用 AngularJS
 
 其餘不拘，因此界面以簡潔為主。
 
@@ -25,3 +27,8 @@
 
 關於 Request Rejected 的錯誤截圖：
 ![](screenshots/request_rejected.png)
+
+
+
+目前使用 GitHub Action 達到每天 12, 18 時自動更新天氣預報資料。  
+![Update resources/data.json](https://github.com/LianSheng197/forecast36h/workflows/Update%20resources/data.json/badge.svg)
