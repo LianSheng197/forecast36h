@@ -1,9 +1,9 @@
 {
  "cwbopendata": {
   "@xmlns": "urn:cwb:gov:tw:cwbcommon:0.1",
-  "identifier": "3e746d64-43a7-f3e7-43f9-241ace6b7278",
+  "identifier": "b89b7670-fb8a-5384-6f8e-78bb66c8ed62",
   "sender": "weather@cwb.gov.tw",
-  "sent": "2020-09-30T16:30:02+08:00",
+  "sent": "2020-10-01T10:57:02+08:00",
   "status": "Actual",
   "msgType": "Issue",
   "source": "MFC",
@@ -12,8 +12,8 @@
   "dataset": {
    "datasetInfo": {
     "datasetDescription": "三十六小時天氣預報",
-    "issueTime": "2020-09-30T17:00:00+08:00",
-    "update": "2020-09-30T16:30:02+08:00"
+    "issueTime": "2020-10-01T11:00:00+08:00",
+    "update": "2020-10-01T10:57:02+08:00"
    },
    "location": [
     {
@@ -23,15 +23,7 @@
        "elementName": "Wx",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "多雲短暫雨",
-          "parameterValue": "8"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "晴時多雲",
@@ -41,6 +33,14 @@
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "晴時多雲",
+          "parameterValue": "2"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "晴時多雲",
           "parameterValue": "2"
@@ -52,18 +52,10 @@
        "elementName": "MaxT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "22",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
-          "parameterName": "27",
+          "parameterName": "28",
           "parameterUnit": "C"
          }
         },
@@ -74,6 +66,14 @@
           "parameterName": "24",
           "parameterUnit": "C"
          }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "29",
+          "parameterUnit": "C"
+         }
         }
        ]
       },
@@ -81,24 +81,24 @@
        "elementName": "MinT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "21",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
-          "parameterName": "21",
+          "parameterName": "24",
           "parameterUnit": "C"
          }
         },
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "21",
+          "parameterUnit": "C"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "21",
           "parameterUnit": "C"
@@ -110,14 +110,7 @@
        "elementName": "CI",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "舒適"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "舒適"
@@ -126,6 +119,13 @@
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "舒適"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "舒適"
          }
@@ -136,15 +136,7 @@
        "elementName": "PoP",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "30",
-          "parameterUnit": "百分比"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "0",
@@ -154,6 +146,14 @@
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "10",
+          "parameterUnit": "百分比"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "10",
           "parameterUnit": "百分比"
@@ -170,24 +170,24 @@
        "elementName": "Wx",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
+         "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
-          "parameterName": "多雲短暫雨",
-          "parameterValue": "8"
+          "parameterName": "多雲時晴",
+          "parameterValue": "3"
          }
         },
         {
-         "startTime": "2020-10-01T06:00:00+08:00",
-         "endTime": "2020-10-01T18:00:00+08:00",
+         "startTime": "2020-10-01T18:00:00+08:00",
+         "endTime": "2020-10-02T06:00:00+08:00",
          "parameter": {
           "parameterName": "晴時多雲",
           "parameterValue": "2"
          }
         },
         {
-         "startTime": "2020-10-01T18:00:00+08:00",
-         "endTime": "2020-10-02T06:00:00+08:00",
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "晴時多雲",
           "parameterValue": "2"
@@ -199,18 +199,10 @@
        "elementName": "MaxT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "23",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
-          "parameterName": "27",
+          "parameterName": "28",
           "parameterUnit": "C"
          }
         },
@@ -221,6 +213,14 @@
           "parameterName": "25",
           "parameterUnit": "C"
          }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "30",
+          "parameterUnit": "C"
+         }
         }
        ]
       },
@@ -228,24 +228,24 @@
        "elementName": "MinT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "22",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
-          "parameterName": "22",
+          "parameterName": "25",
           "parameterUnit": "C"
          }
         },
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "22",
+          "parameterUnit": "C"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "22",
           "parameterUnit": "C"
@@ -257,14 +257,7 @@
        "elementName": "CI",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "舒適"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "舒適"
@@ -273,6 +266,13 @@
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "舒適"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "舒適"
          }
@@ -283,15 +283,7 @@
        "elementName": "PoP",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "30",
-          "parameterUnit": "百分比"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "0",
@@ -301,6 +293,14 @@
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "10",
+          "parameterUnit": "百分比"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "10",
           "parameterUnit": "百分比"
@@ -317,15 +317,7 @@
        "elementName": "Wx",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "多雲短暫雨",
-          "parameterValue": "8"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "晴時多雲",
@@ -335,6 +327,14 @@
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "晴時多雲",
+          "parameterValue": "2"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "晴時多雲",
           "parameterValue": "2"
@@ -346,18 +346,10 @@
        "elementName": "MaxT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "23",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
-          "parameterName": "27",
+          "parameterName": "28",
           "parameterUnit": "C"
          }
         },
@@ -368,6 +360,14 @@
           "parameterName": "24",
           "parameterUnit": "C"
          }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "30",
+          "parameterUnit": "C"
+         }
         }
        ]
       },
@@ -375,24 +375,24 @@
        "elementName": "MinT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "21",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
-          "parameterName": "21",
+          "parameterName": "24",
           "parameterUnit": "C"
          }
         },
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "21",
+          "parameterUnit": "C"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "21",
           "parameterUnit": "C"
@@ -404,14 +404,7 @@
        "elementName": "CI",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "舒適"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "舒適"
@@ -420,6 +413,13 @@
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "舒適"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "舒適"
          }
@@ -430,15 +430,7 @@
        "elementName": "PoP",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "30",
-          "parameterUnit": "百分比"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "0",
@@ -448,6 +440,14 @@
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "10",
+          "parameterUnit": "百分比"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "10",
           "parameterUnit": "百分比"
@@ -464,15 +464,7 @@
        "elementName": "Wx",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "晴時多雲",
-          "parameterValue": "2"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "晴時多雲",
@@ -486,6 +478,14 @@
           "parameterName": "晴時多雲",
           "parameterValue": "2"
          }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "晴時多雲",
+          "parameterValue": "2"
+         }
         }
        ]
       },
@@ -493,15 +493,7 @@
        "elementName": "MaxT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "28",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "32",
@@ -515,6 +507,14 @@
           "parameterName": "28",
           "parameterUnit": "C"
          }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "33",
+          "parameterUnit": "C"
+         }
         }
        ]
       },
@@ -522,24 +522,24 @@
        "elementName": "MinT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "24",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
-          "parameterName": "24",
+          "parameterName": "28",
           "parameterUnit": "C"
          }
         },
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "24",
+          "parameterUnit": "C"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "24",
           "parameterUnit": "C"
@@ -551,14 +551,7 @@
        "elementName": "CI",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "舒適"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "舒適至悶熱"
@@ -570,6 +563,13 @@
          "parameter": {
           "parameterName": "舒適"
          }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "舒適至悶熱"
+         }
         }
        ]
       },
@@ -577,15 +577,7 @@
        "elementName": "PoP",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "20",
-          "parameterUnit": "百分比"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "0",
@@ -597,6 +589,14 @@
          "endTime": "2020-10-02T06:00:00+08:00",
          "parameter": {
           "parameterName": "0",
+          "parameterUnit": "百分比"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "10",
           "parameterUnit": "百分比"
          }
         }
@@ -611,15 +611,7 @@
        "elementName": "Wx",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "多雲時晴",
-          "parameterValue": "3"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "晴時多雲",
@@ -633,6 +625,14 @@
           "parameterName": "晴時多雲",
           "parameterValue": "2"
          }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "晴時多雲",
+          "parameterValue": "2"
+         }
         }
        ]
       },
@@ -640,15 +640,7 @@
        "elementName": "MaxT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "29",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "32",
@@ -662,6 +654,14 @@
           "parameterName": "29",
           "parameterUnit": "C"
          }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "31",
+          "parameterUnit": "C"
+         }
         }
        ]
       },
@@ -669,24 +669,24 @@
        "elementName": "MinT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "25",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
-          "parameterName": "25",
+          "parameterName": "29",
           "parameterUnit": "C"
          }
         },
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "26",
+          "parameterUnit": "C"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "26",
           "parameterUnit": "C"
@@ -698,14 +698,7 @@
        "elementName": "CI",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "舒適"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "舒適至悶熱"
@@ -717,6 +710,13 @@
          "parameter": {
           "parameterName": "舒適"
          }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "舒適至悶熱"
+         }
         }
        ]
       },
@@ -724,15 +724,7 @@
        "elementName": "PoP",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "10",
-          "parameterUnit": "百分比"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "10",
@@ -742,6 +734,14 @@
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "10",
+          "parameterUnit": "百分比"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "10",
           "parameterUnit": "百分比"
@@ -758,15 +758,7 @@
        "elementName": "Wx",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "多雲",
-          "parameterValue": "4"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "晴時多雲",
@@ -777,8 +769,16 @@
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
          "parameter": {
-          "parameterName": "多雲時晴",
-          "parameterValue": "3"
+          "parameterName": "晴時多雲",
+          "parameterValue": "2"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "晴時多雲",
+          "parameterValue": "2"
          }
         }
        ]
@@ -787,15 +787,7 @@
        "elementName": "MaxT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "30",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "32",
@@ -809,6 +801,14 @@
           "parameterName": "30",
           "parameterUnit": "C"
          }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "31",
+          "parameterUnit": "C"
+         }
         }
        ]
       },
@@ -816,24 +816,24 @@
        "elementName": "MinT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "27",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
-          "parameterName": "27",
+          "parameterName": "30",
           "parameterUnit": "C"
          }
         },
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "26",
+          "parameterUnit": "C"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "26",
           "parameterUnit": "C"
@@ -845,22 +845,22 @@
        "elementName": "CI",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "舒適"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
-          "parameterName": "舒適至悶熱"
+          "parameterName": "悶熱"
          }
         },
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "舒適至悶熱"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "舒適至悶熱"
          }
@@ -871,15 +871,7 @@
        "elementName": "PoP",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "10",
-          "parameterUnit": "百分比"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "10",
@@ -889,6 +881,14 @@
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "10",
+          "parameterUnit": "百分比"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "10",
           "parameterUnit": "百分比"
@@ -905,27 +905,27 @@
        "elementName": "Wx",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "多雲短暫雨",
-          "parameterValue": "8"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
-          "parameterName": "晴時多雲",
-          "parameterValue": "2"
+          "parameterName": "多雲時晴",
+          "parameterValue": "3"
          }
         },
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
          "parameter": {
-          "parameterName": "晴時多雲",
-          "parameterValue": "2"
+          "parameterName": "多雲時晴",
+          "parameterValue": "3"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "多雲時晴",
+          "parameterValue": "3"
          }
         }
        ]
@@ -934,18 +934,10 @@
        "elementName": "MaxT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "24",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
-          "parameterName": "26",
+          "parameterName": "27",
           "parameterUnit": "C"
          }
         },
@@ -953,7 +945,15 @@
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
          "parameter": {
-          "parameterName": "24",
+          "parameterName": "25",
+          "parameterUnit": "C"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "28",
           "parameterUnit": "C"
          }
         }
@@ -963,18 +963,10 @@
        "elementName": "MinT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "22",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
-          "parameterName": "22",
+          "parameterName": "25",
           "parameterUnit": "C"
          }
         },
@@ -983,6 +975,14 @@
          "endTime": "2020-10-02T06:00:00+08:00",
          "parameter": {
           "parameterName": "22",
+          "parameterUnit": "C"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "23",
           "parameterUnit": "C"
          }
         }
@@ -992,14 +992,7 @@
        "elementName": "CI",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "舒適"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "舒適"
@@ -1008,6 +1001,13 @@
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "舒適"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "舒適"
          }
@@ -1018,15 +1018,7 @@
        "elementName": "PoP",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "30",
-          "parameterUnit": "百分比"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "0",
@@ -1038,6 +1030,14 @@
          "endTime": "2020-10-02T06:00:00+08:00",
          "parameter": {
           "parameterName": "10",
+          "parameterUnit": "百分比"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "20",
           "parameterUnit": "百分比"
          }
         }
@@ -1052,15 +1052,7 @@
        "elementName": "Wx",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "多雲短暫雨",
-          "parameterValue": "8"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "晴時多雲",
@@ -1074,6 +1066,14 @@
           "parameterName": "晴時多雲",
           "parameterValue": "2"
          }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "晴時多雲",
+          "parameterValue": "2"
+         }
         }
        ]
       },
@@ -1081,15 +1081,7 @@
        "elementName": "MaxT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "24",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "29",
@@ -1103,6 +1095,14 @@
           "parameterName": "25",
           "parameterUnit": "C"
          }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "31",
+          "parameterUnit": "C"
+         }
         }
        ]
       },
@@ -1110,24 +1110,24 @@
        "elementName": "MinT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "22",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
-          "parameterName": "22",
+          "parameterName": "25",
           "parameterUnit": "C"
          }
         },
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "22",
+          "parameterUnit": "C"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "22",
           "parameterUnit": "C"
@@ -1139,14 +1139,7 @@
        "elementName": "CI",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "舒適"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "舒適"
@@ -1155,6 +1148,13 @@
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "舒適"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "舒適"
          }
@@ -1165,15 +1165,7 @@
        "elementName": "PoP",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "30",
-          "parameterUnit": "百分比"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "0",
@@ -1183,6 +1175,14 @@
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "0",
+          "parameterUnit": "百分比"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "0",
           "parameterUnit": "百分比"
@@ -1199,15 +1199,7 @@
        "elementName": "Wx",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "多雲短暫雨",
-          "parameterValue": "8"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "晴時多雲",
@@ -1217,6 +1209,14 @@
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "晴時多雲",
+          "parameterValue": "2"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "晴時多雲",
           "parameterValue": "2"
@@ -1228,18 +1228,10 @@
        "elementName": "MaxT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "24",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
-          "parameterName": "29",
+          "parameterName": "30",
           "parameterUnit": "C"
          }
         },
@@ -1250,6 +1242,14 @@
           "parameterName": "25",
           "parameterUnit": "C"
          }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "31",
+          "parameterUnit": "C"
+         }
         }
        ]
       },
@@ -1257,24 +1257,24 @@
        "elementName": "MinT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "22",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
-          "parameterName": "22",
+          "parameterName": "25",
           "parameterUnit": "C"
          }
         },
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "22",
+          "parameterUnit": "C"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "22",
           "parameterUnit": "C"
@@ -1286,14 +1286,7 @@
        "elementName": "CI",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "舒適"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "舒適"
@@ -1305,6 +1298,13 @@
          "parameter": {
           "parameterName": "舒適"
          }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "舒適至悶熱"
+         }
         }
        ]
       },
@@ -1312,15 +1312,7 @@
        "elementName": "PoP",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "30",
-          "parameterUnit": "百分比"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "0",
@@ -1330,6 +1322,14 @@
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "0",
+          "parameterUnit": "百分比"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "0",
           "parameterUnit": "百分比"
@@ -1346,15 +1346,7 @@
        "elementName": "Wx",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "多雲短暫雨",
-          "parameterValue": "8"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "晴時多雲",
@@ -1364,6 +1356,14 @@
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "晴時多雲",
+          "parameterValue": "2"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "晴時多雲",
           "parameterValue": "2"
@@ -1375,18 +1375,10 @@
        "elementName": "MaxT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "24",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
-          "parameterName": "29",
+          "parameterName": "30",
           "parameterUnit": "C"
          }
         },
@@ -1397,6 +1389,14 @@
           "parameterName": "25",
           "parameterUnit": "C"
          }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "30",
+          "parameterUnit": "C"
+         }
         }
        ]
       },
@@ -1404,24 +1404,24 @@
        "elementName": "MinT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "21",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
-          "parameterName": "21",
+          "parameterName": "25",
           "parameterUnit": "C"
          }
         },
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "21",
+          "parameterUnit": "C"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "21",
           "parameterUnit": "C"
@@ -1433,14 +1433,7 @@
        "elementName": "CI",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "舒適"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "舒適"
@@ -1449,6 +1442,13 @@
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "舒適"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "舒適"
          }
@@ -1459,15 +1459,7 @@
        "elementName": "PoP",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "30",
-          "parameterUnit": "百分比"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "0",
@@ -1477,6 +1469,14 @@
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "0",
+          "parameterUnit": "百分比"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "0",
           "parameterUnit": "百分比"
@@ -1493,15 +1493,7 @@
        "elementName": "Wx",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "晴時多雲",
-          "parameterValue": "2"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "晴時多雲",
@@ -1515,6 +1507,14 @@
           "parameterName": "晴時多雲",
           "parameterValue": "2"
          }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "晴時多雲",
+          "parameterValue": "2"
+         }
         }
        ]
       },
@@ -1522,15 +1522,7 @@
        "elementName": "MaxT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "27",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "31",
@@ -1544,6 +1536,14 @@
           "parameterName": "27",
           "parameterUnit": "C"
          }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "31",
+          "parameterUnit": "C"
+         }
         }
        ]
       },
@@ -1551,24 +1551,24 @@
        "elementName": "MinT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "23",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
-          "parameterName": "23",
+          "parameterName": "27",
           "parameterUnit": "C"
          }
         },
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "23",
+          "parameterUnit": "C"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "23",
           "parameterUnit": "C"
@@ -1580,14 +1580,7 @@
        "elementName": "CI",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "舒適"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "舒適至悶熱"
@@ -1599,6 +1592,13 @@
          "parameter": {
           "parameterName": "舒適"
          }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "舒適至悶熱"
+         }
         }
        ]
       },
@@ -1606,15 +1606,7 @@
        "elementName": "PoP",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "20",
-          "parameterUnit": "百分比"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "0",
@@ -1624,6 +1616,14 @@
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "0",
+          "parameterUnit": "百分比"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "0",
           "parameterUnit": "百分比"
@@ -1640,27 +1640,27 @@
        "elementName": "Wx",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "多雲時晴",
-          "parameterValue": "3"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
-          "parameterName": "多雲時晴",
-          "parameterValue": "3"
+          "parameterName": "晴時多雲",
+          "parameterValue": "2"
          }
         },
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
          "parameter": {
-          "parameterName": "晴時多雲",
-          "parameterValue": "2"
+          "parameterName": "多雲時陰",
+          "parameterValue": "5"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "多雲時晴",
+          "parameterValue": "3"
          }
         }
        ]
@@ -1669,18 +1669,10 @@
        "elementName": "MaxT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "28",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
-          "parameterName": "32",
+          "parameterName": "33",
           "parameterUnit": "C"
          }
         },
@@ -1691,6 +1683,14 @@
           "parameterName": "29",
           "parameterUnit": "C"
          }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "33",
+          "parameterUnit": "C"
+         }
         }
        ]
       },
@@ -1698,24 +1698,24 @@
        "elementName": "MinT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "24",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
-          "parameterName": "24",
+          "parameterName": "29",
           "parameterUnit": "C"
          }
         },
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "24",
+          "parameterUnit": "C"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "24",
           "parameterUnit": "C"
@@ -1727,14 +1727,7 @@
        "elementName": "CI",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "舒適"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "舒適至悶熱"
@@ -1746,6 +1739,13 @@
          "parameter": {
           "parameterName": "舒適"
          }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "舒適至悶熱"
+         }
         }
        ]
       },
@@ -1753,15 +1753,7 @@
        "elementName": "PoP",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "10",
-          "parameterUnit": "百分比"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "10",
@@ -1773,6 +1765,14 @@
          "endTime": "2020-10-02T06:00:00+08:00",
          "parameter": {
           "parameterName": "0",
+          "parameterUnit": "百分比"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "10",
           "parameterUnit": "百分比"
          }
         }
@@ -1787,15 +1787,7 @@
        "elementName": "Wx",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "晴時多雲",
-          "parameterValue": "2"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "多雲",
@@ -1809,6 +1801,14 @@
           "parameterName": "多雲時晴",
           "parameterValue": "3"
          }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "多雲",
+          "parameterValue": "4"
+         }
         }
        ]
       },
@@ -1816,15 +1816,7 @@
        "elementName": "MaxT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "28",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "32",
@@ -1835,7 +1827,15 @@
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
          "parameter": {
-          "parameterName": "28",
+          "parameterName": "27",
+          "parameterUnit": "C"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "32",
           "parameterUnit": "C"
          }
         }
@@ -1845,24 +1845,24 @@
        "elementName": "MinT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "24",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
-          "parameterName": "24",
+          "parameterName": "27",
           "parameterUnit": "C"
          }
         },
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "24",
+          "parameterUnit": "C"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "24",
           "parameterUnit": "C"
@@ -1874,14 +1874,7 @@
        "elementName": "CI",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "舒適"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "舒適至悶熱"
@@ -1893,6 +1886,13 @@
          "parameter": {
           "parameterName": "舒適"
          }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "舒適至悶熱"
+         }
         }
        ]
       },
@@ -1900,15 +1900,7 @@
        "elementName": "PoP",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "10",
-          "parameterUnit": "百分比"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "10",
@@ -1920,6 +1912,14 @@
          "endTime": "2020-10-02T06:00:00+08:00",
          "parameter": {
           "parameterName": "0",
+          "parameterUnit": "百分比"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "10",
           "parameterUnit": "百分比"
          }
         }
@@ -1934,24 +1934,24 @@
        "elementName": "Wx",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "晴時多雲",
-          "parameterValue": "2"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
-          "parameterName": "晴時多雲",
-          "parameterValue": "2"
+          "parameterName": "多雲",
+          "parameterValue": "4"
          }
         },
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "晴時多雲",
+          "parameterValue": "2"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "晴時多雲",
           "parameterValue": "2"
@@ -1963,15 +1963,7 @@
        "elementName": "MaxT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "28",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "32",
@@ -1985,6 +1977,14 @@
           "parameterName": "28",
           "parameterUnit": "C"
          }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "33",
+          "parameterUnit": "C"
+         }
         }
        ]
       },
@@ -1992,24 +1992,24 @@
        "elementName": "MinT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "23",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
-          "parameterName": "23",
+          "parameterName": "28",
           "parameterUnit": "C"
          }
         },
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "24",
+          "parameterUnit": "C"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "24",
           "parameterUnit": "C"
@@ -2021,14 +2021,7 @@
        "elementName": "CI",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "舒適"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "舒適至悶熱"
@@ -2040,6 +2033,13 @@
          "parameter": {
           "parameterName": "舒適"
          }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "舒適至悶熱"
+         }
         }
        ]
       },
@@ -2047,15 +2047,7 @@
        "elementName": "PoP",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "10",
-          "parameterUnit": "百分比"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "10",
@@ -2065,6 +2057,14 @@
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "10",
+          "parameterUnit": "百分比"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "10",
           "parameterUnit": "百分比"
@@ -2081,24 +2081,24 @@
        "elementName": "Wx",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "多雲時晴",
-          "parameterValue": "3"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
-          "parameterName": "陰時多雲",
-          "parameterValue": "6"
+          "parameterName": "陰天",
+          "parameterValue": "7"
          }
         },
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "晴時多雲",
+          "parameterValue": "2"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "晴時多雲",
           "parameterValue": "2"
@@ -2110,15 +2110,7 @@
        "elementName": "MaxT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "28",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "33",
@@ -2132,6 +2124,14 @@
           "parameterName": "28",
           "parameterUnit": "C"
          }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "33",
+          "parameterUnit": "C"
+         }
         }
        ]
       },
@@ -2139,24 +2139,24 @@
        "elementName": "MinT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "24",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
-          "parameterName": "24",
+          "parameterName": "28",
           "parameterUnit": "C"
          }
         },
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "23",
+          "parameterUnit": "C"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "23",
           "parameterUnit": "C"
@@ -2168,14 +2168,7 @@
        "elementName": "CI",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "舒適"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "舒適至易中暑"
@@ -2187,6 +2180,13 @@
          "parameter": {
           "parameterName": "舒適"
          }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "舒適至悶熱"
+         }
         }
        ]
       },
@@ -2194,15 +2194,7 @@
        "elementName": "PoP",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "10",
-          "parameterUnit": "百分比"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "20",
@@ -2214,6 +2206,14 @@
          "endTime": "2020-10-02T06:00:00+08:00",
          "parameter": {
           "parameterName": "10",
+          "parameterUnit": "百分比"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "20",
           "parameterUnit": "百分比"
          }
         }
@@ -2228,27 +2228,27 @@
        "elementName": "Wx",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "陰天",
-          "parameterValue": "7"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
-          "parameterName": "多雲午後短暫雷陣雨",
-          "parameterValue": "22"
+          "parameterName": "晴午後短暫雷陣雨",
+          "parameterValue": "21"
          }
         },
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
          "parameter": {
-          "parameterName": "多雲時陰短暫陣雨",
-          "parameterValue": "9"
+          "parameterName": "多雲短暫陣雨",
+          "parameterValue": "8"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "晴午後短暫雷陣雨",
+          "parameterValue": "21"
          }
         }
        ]
@@ -2257,15 +2257,7 @@
        "elementName": "MaxT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "28",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "32",
@@ -2279,6 +2271,14 @@
           "parameterName": "29",
           "parameterUnit": "C"
          }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "33",
+          "parameterUnit": "C"
+         }
         }
        ]
       },
@@ -2286,24 +2286,24 @@
        "elementName": "MinT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "24",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
-          "parameterName": "24",
+          "parameterName": "29",
           "parameterUnit": "C"
          }
         },
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "24",
+          "parameterUnit": "C"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "24",
           "parameterUnit": "C"
@@ -2315,22 +2315,22 @@
        "elementName": "CI",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "舒適至悶熱"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
-          "parameterName": "舒適至悶熱"
+          "parameterName": "悶熱"
          }
         },
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "舒適至悶熱"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "舒適至悶熱"
          }
@@ -2341,24 +2341,24 @@
        "elementName": "PoP",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "10",
-          "parameterUnit": "百分比"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
-          "parameterName": "40",
+          "parameterName": "50",
           "parameterUnit": "百分比"
          }
         },
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "30",
+          "parameterUnit": "百分比"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "30",
           "parameterUnit": "百分比"
@@ -2375,24 +2375,24 @@
        "elementName": "Wx",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "多雲短暫雨",
-          "parameterValue": "8"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
-          "parameterName": "陰時多雲",
-          "parameterValue": "6"
+          "parameterName": "陰天",
+          "parameterValue": "7"
          }
         },
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "多雲時晴",
+          "parameterValue": "3"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "晴時多雲",
           "parameterValue": "2"
@@ -2404,15 +2404,7 @@
        "elementName": "MaxT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "24",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "27",
@@ -2426,6 +2418,14 @@
           "parameterName": "24",
           "parameterUnit": "C"
          }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "29",
+          "parameterUnit": "C"
+         }
         }
        ]
       },
@@ -2433,24 +2433,24 @@
        "elementName": "MinT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "21",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
-          "parameterName": "21",
+          "parameterName": "24",
           "parameterUnit": "C"
          }
         },
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "21",
+          "parameterUnit": "C"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "21",
           "parameterUnit": "C"
@@ -2462,14 +2462,7 @@
        "elementName": "CI",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "舒適"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "舒適"
@@ -2478,6 +2471,13 @@
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "舒適"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "舒適"
          }
@@ -2488,15 +2488,7 @@
        "elementName": "PoP",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "30",
-          "parameterUnit": "百分比"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "10",
@@ -2508,6 +2500,14 @@
          "endTime": "2020-10-02T06:00:00+08:00",
          "parameter": {
           "parameterName": "10",
+          "parameterUnit": "百分比"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "20",
           "parameterUnit": "百分比"
          }
         }
@@ -2522,15 +2522,7 @@
        "elementName": "Wx",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "陰時多雲",
-          "parameterValue": "6"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "陰時多雲",
@@ -2544,6 +2536,14 @@
           "parameterName": "多雲時晴",
           "parameterValue": "3"
          }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "晴時多雲",
+          "parameterValue": "2"
+         }
         }
        ]
       },
@@ -2551,18 +2551,10 @@
        "elementName": "MaxT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "26",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
-          "parameterName": "28",
+          "parameterName": "30",
           "parameterUnit": "C"
          }
         },
@@ -2571,6 +2563,14 @@
          "endTime": "2020-10-02T06:00:00+08:00",
          "parameter": {
           "parameterName": "26",
+          "parameterUnit": "C"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "30",
           "parameterUnit": "C"
          }
         }
@@ -2580,24 +2580,24 @@
        "elementName": "MinT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "23",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
-          "parameterName": "23",
+          "parameterName": "26",
           "parameterUnit": "C"
          }
         },
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "23",
+          "parameterUnit": "C"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "23",
           "parameterUnit": "C"
@@ -2609,14 +2609,7 @@
        "elementName": "CI",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "舒適"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "舒適"
@@ -2625,6 +2618,13 @@
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "舒適"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "舒適"
          }
@@ -2635,15 +2635,7 @@
        "elementName": "PoP",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "10",
-          "parameterUnit": "百分比"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "10",
@@ -2653,6 +2645,14 @@
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "10",
+          "parameterUnit": "百分比"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "10",
           "parameterUnit": "百分比"
@@ -2669,27 +2669,27 @@
        "elementName": "Wx",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "陰時多雲短暫雨",
-          "parameterValue": "10"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
-          "parameterName": "陰時多雲",
-          "parameterValue": "6"
+          "parameterName": "多雲",
+          "parameterValue": "4"
          }
         },
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
          "parameter": {
-          "parameterName": "陰時多雲",
-          "parameterValue": "6"
+          "parameterName": "晴時多雲",
+          "parameterValue": "2"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "晴時多雲",
+          "parameterValue": "2"
          }
         }
        ]
@@ -2698,18 +2698,10 @@
        "elementName": "MaxT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "26",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
-          "parameterName": "30",
+          "parameterName": "29",
           "parameterUnit": "C"
          }
         },
@@ -2717,7 +2709,15 @@
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
          "parameter": {
-          "parameterName": "27",
+          "parameterName": "26",
+          "parameterUnit": "C"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "30",
           "parameterUnit": "C"
          }
         }
@@ -2727,24 +2727,24 @@
        "elementName": "MinT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "24",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
-          "parameterName": "24",
+          "parameterName": "26",
           "parameterUnit": "C"
          }
         },
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "24",
+          "parameterUnit": "C"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "24",
           "parameterUnit": "C"
@@ -2756,14 +2756,7 @@
        "elementName": "CI",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "舒適"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "舒適至悶熱"
@@ -2775,6 +2768,13 @@
          "parameter": {
           "parameterName": "舒適"
          }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "舒適至悶熱"
+         }
         }
        ]
       },
@@ -2782,15 +2782,7 @@
        "elementName": "PoP",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "30",
-          "parameterUnit": "百分比"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "10",
@@ -2802,6 +2794,14 @@
          "endTime": "2020-10-02T06:00:00+08:00",
          "parameter": {
           "parameterName": "10",
+          "parameterUnit": "百分比"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "20",
           "parameterUnit": "百分比"
          }
         }
@@ -2816,15 +2816,7 @@
        "elementName": "Wx",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "晴時多雲",
-          "parameterValue": "2"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "晴時多雲",
@@ -2838,6 +2830,14 @@
           "parameterName": "晴時多雲",
           "parameterValue": "2"
          }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "晴時多雲",
+          "parameterValue": "2"
+         }
         }
        ]
       },
@@ -2845,15 +2845,7 @@
        "elementName": "MaxT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "27",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "30",
@@ -2867,6 +2859,14 @@
           "parameterName": "26",
           "parameterUnit": "C"
          }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "30",
+          "parameterUnit": "C"
+         }
         }
        ]
       },
@@ -2874,15 +2874,7 @@
        "elementName": "MinT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "26",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "26",
@@ -2896,6 +2888,14 @@
           "parameterName": "25",
           "parameterUnit": "C"
          }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "25",
+          "parameterUnit": "C"
+         }
         }
        ]
       },
@@ -2903,14 +2903,7 @@
        "elementName": "CI",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "舒適"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "舒適至悶熱"
@@ -2922,6 +2915,13 @@
          "parameter": {
           "parameterName": "舒適"
          }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "舒適至悶熱"
+         }
         }
        ]
       },
@@ -2929,15 +2929,7 @@
        "elementName": "PoP",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "0",
-          "parameterUnit": "百分比"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "0",
@@ -2947,6 +2939,14 @@
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "0",
+          "parameterUnit": "百分比"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "0",
           "parameterUnit": "百分比"
@@ -2963,15 +2963,7 @@
        "elementName": "Wx",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "晴時多雲",
-          "parameterValue": "2"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "晴時多雲",
@@ -2985,6 +2977,14 @@
           "parameterName": "晴時多雲",
           "parameterValue": "2"
          }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "晴時多雲",
+          "parameterValue": "2"
+         }
         }
        ]
       },
@@ -2992,15 +2992,7 @@
        "elementName": "MaxT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "24",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "29",
@@ -3014,6 +3006,14 @@
           "parameterName": "25",
           "parameterUnit": "C"
          }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "29",
+          "parameterUnit": "C"
+         }
         }
        ]
       },
@@ -3021,24 +3021,24 @@
        "elementName": "MinT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "24",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
-          "parameterName": "24",
+          "parameterName": "25",
           "parameterUnit": "C"
          }
         },
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "23",
+          "parameterUnit": "C"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "23",
           "parameterUnit": "C"
@@ -3050,14 +3050,7 @@
        "elementName": "CI",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "舒適"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "舒適"
@@ -3066,6 +3059,13 @@
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "舒適"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "舒適"
          }
@@ -3076,15 +3076,7 @@
        "elementName": "PoP",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "0",
-          "parameterUnit": "百分比"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "0",
@@ -3094,6 +3086,14 @@
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "0",
+          "parameterUnit": "百分比"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "0",
           "parameterUnit": "百分比"
@@ -3110,27 +3110,27 @@
        "elementName": "Wx",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "多雲時晴",
-          "parameterValue": "3"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
-          "parameterName": "晴時多雲",
-          "parameterValue": "2"
+          "parameterName": "多雲",
+          "parameterValue": "4"
          }
         },
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
          "parameter": {
-          "parameterName": "多雲時晴",
-          "parameterValue": "3"
+          "parameterName": "晴時多雲",
+          "parameterValue": "2"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "晴時多雲",
+          "parameterValue": "2"
          }
         }
        ]
@@ -3139,15 +3139,7 @@
        "elementName": "MaxT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "23",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "25",
@@ -3161,6 +3153,14 @@
           "parameterName": "23",
           "parameterUnit": "C"
          }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "25",
+          "parameterUnit": "C"
+         }
         }
        ]
       },
@@ -3168,24 +3168,24 @@
        "elementName": "MinT",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "22",
-          "parameterUnit": "C"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
-          "parameterName": "22",
+          "parameterName": "23",
           "parameterUnit": "C"
          }
         },
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "21",
+          "parameterUnit": "C"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "21",
           "parameterUnit": "C"
@@ -3197,14 +3197,7 @@
        "elementName": "CI",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "舒適"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
           "parameterName": "舒適"
@@ -3213,6 +3206,13 @@
         {
          "startTime": "2020-10-01T18:00:00+08:00",
          "endTime": "2020-10-02T06:00:00+08:00",
+         "parameter": {
+          "parameterName": "舒適"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
          "parameter": {
           "parameterName": "舒適"
          }
@@ -3223,18 +3223,10 @@
        "elementName": "PoP",
        "time": [
         {
-         "startTime": "2020-09-30T18:00:00+08:00",
-         "endTime": "2020-10-01T06:00:00+08:00",
-         "parameter": {
-          "parameterName": "20",
-          "parameterUnit": "百分比"
-         }
-        },
-        {
-         "startTime": "2020-10-01T06:00:00+08:00",
+         "startTime": "2020-10-01T12:00:00+08:00",
          "endTime": "2020-10-01T18:00:00+08:00",
          "parameter": {
-          "parameterName": "20",
+          "parameterName": "0",
           "parameterUnit": "百分比"
          }
         },
@@ -3243,6 +3235,14 @@
          "endTime": "2020-10-02T06:00:00+08:00",
          "parameter": {
           "parameterName": "10",
+          "parameterUnit": "百分比"
+         }
+        },
+        {
+         "startTime": "2020-10-02T06:00:00+08:00",
+         "endTime": "2020-10-02T18:00:00+08:00",
+         "parameter": {
+          "parameterName": "0",
           "parameterUnit": "百分比"
          }
         }
