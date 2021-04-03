@@ -30,6 +30,7 @@
 
 
 
-~~目前使用 GitHub Action 達到每天 12, 18 時自動更新天氣預報資料。  ~~
+~~目前使用 GitHub Action 達到每天 12, 18 時自動更新天氣預報資料。~~  
+
 已將排程修改成每年一月一日才會更新（幾乎是關閉更新）
 ![Update resources/data.json](https://github.com/LianSheng197/forecast36h/workflows/Update%20resources/data.json/badge.svg)
